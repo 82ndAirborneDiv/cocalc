@@ -32,7 +32,7 @@
     "jquery-highlight": "^3.3.0",
     "jquery-mouse-exit": "^0.2.0",
     "jquery-stick": "^0.1.0",
-    "jquery-tooltip": "^0.1.0",
+    "jquery-tooltip": "^0.2.1",
     "jquery-ui": "^1.12.1",
     "jquery-ui-touch-punch": "^0.2.3",
     "jquery.payment": "git://github.com/stripe/jquery.payment.git",
