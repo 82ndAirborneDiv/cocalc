@@ -66,7 +66,8 @@
     "reselect": "^2.5.4",
     "three": "^0.78.0",
     "timeago": "^1.5.3",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "snyk": "^1.526.0"
   },
   "devDependencies": {
     "coffee-coverage": "^0.6.3",
@@ -82,7 +83,9 @@
   "scripts": {
     "test": "echo 'TEST WEBAPP'; SMC_TEST=true node_modules/.bin/mocha --reporter progress test && echo 'TEST JUPYTER CLIENT'; cd jupyter && ../node_modules/.bin/mocha  --reporter progress  test",
     "lint": "node_modules/.bin/coffeelint -f ../smc-util/coffeelint.json -c *.coffee *.cjsx",
-    "coverage": "rm -rf ./coverage/; SMC_TEST=true node_modules/.bin/mocha --require ./coffee-coverage-loader.js && node_modules/.bin/istanbul report text html"
+    "coverage": "rm -rf ./coverage/; SMC_TEST=true node_modules/.bin/mocha --require ./coffee-coverage-loader.js && node_modules/.bin/istanbul report text html",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -111,5 +114,6 @@
   "bugs": {
     "url": "https://github.com/sagemathinc/cocalc/issues"
   },
-  "homepage": "https://github.com/sagemathinc/cocalc"
+  "homepage": "https://github.com/sagemathinc/cocalc",
+  "snyk": true
 }
