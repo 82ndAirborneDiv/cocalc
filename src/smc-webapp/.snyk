@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - react-select > coveralls > request > hawk > hoek:
+        patched: '2021-09-04T06:36:26.634Z'
+    - react-select > coveralls > request > hawk > boom > hoek:
+        patched: '2021-09-04T06:36:26.634Z'
+    - react-select > coveralls > request > hawk > sntp > hoek:
+        patched: '2021-09-04T06:36:26.634Z'
+    - react-select > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-04T06:36:26.634Z'
