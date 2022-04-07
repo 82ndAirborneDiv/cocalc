@@ -5,7 +5,7 @@
   "main": "index.js",
   "directories": {},
   "dependencies": {
-    "async": "^1.4.2",
+    "async": "^3.2.2",
     "blocked": "^1.1.0",
     "body-parser": "^1.17.1",
     "coffee-cache": "^1.0.2",
@@ -51,7 +51,7 @@
     "stripe": "^4.0.0",
     "temp": "^0.8.3",
     "underscore": "^1.7.0",
-    "winston": "^1.1.1"
+    "winston": "^3.3.0"
   },
   "devDependencies": {
     "coffee-coverage": "^0.6.2",
