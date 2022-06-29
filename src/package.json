@@ -31,7 +31,7 @@
     "jstransformer-coffee-script": "^1.1.0",
     "jstransformer-markdown-it": "^2.0.0",
     "jstransformer-sass": "^0.1.1",
-    "less": "^2.7.1",
+    "less": "^3.0.2",
     "less-loader": "^2.2.3",
     "node-cjsx": "^1.0.0",
     "node-glob": "^1.2.0",
