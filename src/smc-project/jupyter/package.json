@@ -12,7 +12,7 @@
   "author": "",
   "license": "AGPL-3.0",
   "dependencies": {
-    "enchannel-zmq-backend": "^4",
+    "enchannel-zmq-backend": "^7.0.1",
     "expect": "^1.20",
     "kernelspecs": "^2",
     "node-cleanup": "^2.1",
