@@ -29,7 +29,7 @@
     "imports-loader": "^0.6.5",
     "json-loader": "^0.5.4",
     "jstransformer-coffee-script": "^1.1.0",
-    "jstransformer-markdown-it": "^2.0.0",
+    "jstransformer-markdown-it": "^3.0.0",
     "jstransformer-sass": "^0.1.1",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
