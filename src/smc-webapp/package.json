@@ -10,7 +10,7 @@
     "bootstrap": "^3.3.6",
     "bootstrap-colorpicker": "^2.3.6",
     "bootstrap-switch": "^3.3.2",
-    "codemirror": "^5.19.0",
+    "codemirror": "^6.0.0",
     "coffee-react": "^4.0.0",
     "coffee-react-transform": "^3.3.0",
     "coffee-script": "^1.11.1",
